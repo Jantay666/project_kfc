@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>KFC</title>
+    <script src='https://kit.fontawesome.com/f77600b8df.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Проект</div>
+        <div class='nav-item' onclick="document.getElementById('team').scrollIntoView({behavior: 'smooth'});">Команда</div>
+        <div class='nav-item' onclick="document.getElementById('merch').scrollIntoView({behavior: 'smooth'});">Товар</div>
+        <div class='nav-item' onclick="document.getElementById('pokup').scrollIntoView({behavior: 'smooth'});">Покупатели</div>
+        <div class='nav-item' onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Заявка</div>
+        <div class='nav-item'><span class='cart-text'>Корзина</span> <span class='cart-amount'>0</span></div>
+        
+    </nav>
+    <header>
+        <h1>Попробуйте вкусный KFC</h1>
+        <div class='arrow-next'><i class='fa-solid fa-arrow-down'></i></div>
+    </header>
+    <main>
+        <section class='section1' id='about'>
+            <h1 style="color: red">О проекте</h1>
+            <div class='about-wrapper'>
+                <p>Сейчас, в мире, где преобладают технологии, многим людям просто лень выходить на улицу и покупать еду.</p>
+                <p>Поэтому Полковник Сандерс захотел облегчить людям жизнь и создал сайт, на котором можно купить еду в таком количестве, в каком ты захочешь за хорошую цену.</p>
+                <p>Наш филиал преобладает во многих городах и принимает любых клиентов.</p>
+                <p><i>Нам главное чтобы вы были сыты!</i></p>
+            </div>
+        </section>
+        <section class='section2' id='team'>
+            <h1 style="color: white">Команда</h1>
+            <div class='team-wrapper'>
+                <div class='team-item team1'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Сандерс</h2>
+                        <p>Основатель компании. Помнит все рецепты наизусть. </p>
+                    </div>
+                </div>
+                <div class='team-item team2'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Дональд</h2>
+                        <p>Лучший сотрудник. Никогда не разочаровывал.</p>
+                    </div>
+                </div>
+                <div class='team-item team3'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Даффи</h2>
+                        <p>Ходячая проблема.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section4' id='merch'>
+            <h1 style="color: red">Товар</h1>
+            <div class='merch-wrapper'>
+                <div class='merch-item merch1'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[название]</h2>
+                        <p class='merch-item-descr'>[описание]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>&nbsp;- <span class='merch-item-price'>[цена]</span>р.
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch2'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[название]</h2>
+                        <p class='merch-item-descr'>[описание]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>&nbsp;- <span class='merch-item-price'>[цена]</span>р.
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch3'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[название]</h2>
+                        <p class='merch-item-descr'>[описание]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>&nbsp;- <span class='merch-item-price'>[цена]</span>р.
+                        </div>
+                    </div>
+                </div>
+                <div class='merch-item merch4'>
+                    <div class='merch-item-top'></div>
+                    <div class='merch-item-bottom'>
+                        <h2 class='merch-item-name'>[название]</h2>
+                        <p class='merch-item-descr'>[описание]</p>
+                        <div class='add-to-cart-group'>
+                            <div class='add-to-cart-btn'><i class='fa-solid fa-cart-shopping'></i></div>&nbsp;- <span class='merch-item-price'>[цена]</span>р.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                <section class='section2' id='pokup'>
+            <h1 style="color: white">Покупатели</h1>
+            <div class='team-wrapper'>
+                <div class='team-item team1'>
+                    <div class='pokup-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Ичиго</h2>
+                        <p>Кушая курочку освоил банкай. </p>
+                    </div>
+                </div>
+                <div class='team-item team2'>
+                    <div class='pokup-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Луффи</h2>
+                        <p>Едя у нас курочку случайно съел дьявольский плод.</p>
+                    </div>
+                </div>
+                <div class='team-item team3'>
+                    <div class='pokup-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Наруто</h2>
+                        <p>Входит в чёрный список потому, что любит рамен.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section4' id='submit'>
+            <div class='submit-wrapper'>
+                <h1 style="color: red">Заявка</h1>
+                <div class='submit-form'>
+                    <input class='submit-input' type='text' placeholder='имя'>
+                    <p class='submit-input-label' style="color: red">Ваше ФИО</p>
+                    <input class='submit-input' type='email' placeholder='адрес'>
+                    <p class='submit-input-label' style="color: red">адрес проживания</p>
+                    <input class='submit-input' type='text' placeholder='телефон'>
+                    <p class='submit-input-label' style="color: red">номер телефона</p>
+                    <div class='submit-input-row'>
+                        <div class='group'>
+                            <input class='submit-input row-item days-input' type='number' placeholder='порции'>
+                            <p class='submit-input-label' style="color: red">Количество <span class='mars mars5'>порций</span></p>
+                        </div>  
+                        <div class='group'>
+                            <select class='submit-select row-item' placeholder='каюта'>
+                                <option value='1000' selected='selected'>Базовый</option>
+                                <option value='2000'>Премиум</option>
+                                <option value='3000'>Люкс</option>
+                            </select>
+                            <p class='submit-input-label' style="color: red">класс порци</p>
+                        </div>  
+                    </div>
+                </div>
+                <div class='submit-btn-row'>
+                    <div class='submit-btn submit-btn-calc' style="color: red">Стоимость</div>
+                    <div class='submit-btn submit-btn-send' style="color: red">Отправить</div>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>    
+<script src="script.js"></script>
+</body>
+</html>
